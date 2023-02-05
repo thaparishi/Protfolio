@@ -20,9 +20,6 @@ body{
     background-color: #171616;
     display: flex;
     justify-content: space-between; 
-    position: sticky;
-    top: 1%;
-    cursor: pointer;
 }
 
 .header .logo a{
