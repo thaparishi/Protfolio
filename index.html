@@ -1,0 +1,237 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishi Thapa</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/32f5889744.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("ZKwCUFq1lt4mmNbfW");
+        })();
+    </script>
+  
+</head>
+  
+  <body>
+
+    <div class="header">
+      <div class="logo">
+        <a href="index.html" style="text-decoration: none">
+          <span class="hero-0">Rishi</span></a>
+      </div>
+
+      <nav>
+        <div class="nav" id="nav">
+          <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="/img/CV, Rishi Thapa (1)_page-0001.jpg" download>CV</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </div>
+
+    <div class="summary">
+      <div class="row">
+        <div class="column">
+          <p>
+            <span class="hero">Hi</span> I'm <br />
+            Rishi Thapa
+          </p>
+          <h5>Undergraduate  at <span class="hero">Herald College Kathmandu</span></h5>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="aboutme">
+      <h2>About me</h2>
+    <div class="row">
+      <div class="aboutme-col-1">
+        <img src="/img/rishithapa.jpg" alt="" />
+      </div>
+      <div class="aboutme-col-2">
+        <p>
+          Ever since I started developing a relationship among people I've
+          always found myself standing out from crowd but at the same time
+          I've always mantained stable relation to help or get help in need.
+        </p>
+
+        <div class="tab-title">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skill
+          </p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li>
+              <span>HTML, CSS and JS</span> <br />
+              Bacis of HTML, CSS and JavaScript. Can develop a simple webpage using these languages.
+            </li>
+            <li>
+              <span>Java</span> <br />
+              Basic knowledge of Java. Can write simple programs.
+            </li>
+            <li>
+              <span>Python</span> <br />
+              Basic knowledge of Python. Can write simple programs.
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>2020</span> <br />
+              Secondary Education Examination
+            </li>
+            <li>
+              <span>2022</span> <br />
+              10+2
+            </li>
+            <li>
+              <span>2022</span> <br />
+              BSc (Hons)Computer Science
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li>
+              <span>lorem/lorem</span> <br />
+              Lorem ipsum dolor sit amet.
+            </li>
+            <li>
+              <span>lorem development</span> <br />
+              Lorem ipsum dolor sit.
+            </li>
+            <li>
+              <span>lorem development</span> <br />
+              ram is Lorem ipsum dolor.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="myservice">
+      <h2>My Service</h2>
+      <div class="row">
+        <div class="myservice-col">
+          <i class="fa-solid fa-code"></i>
+          <h1>Web development</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum
+            dolor sit amet consectetur adipisicing.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+        <div class="myservice-col">
+          <i class="fa-solid fa-crop-simple"></i>
+          <h1>UI/UX Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum
+            dolor sit amet consectetur adipisicing.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+        <div class="myservice-col">
+          <i class="fa-brands fa-app-store"></i>
+          <h1>App Development</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem ipsum
+            dolor sit amet consectetur adipisicing.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- mywork -->
+    
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/img/rishithapa.jpg">
+            <div class="layer">
+              <h3>Coding challenge 1</h3>
+              <p>This will help you organise your todo's.You can use it from below</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/rishithapa.jpg">
+            <div class="layer">
+              <h3>Coding challenge 2</h3>
+              <p>This wil help you get weather condition of current location. You can use it from below</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/rishithapa.jpg">
+            <div class="layer">
+              <h3>Coding challenge 3</h3>
+              <p>This will help you increase you vocabulary.You can play it from below</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">See More</a>
+      </div>
+    </div>
+
+
+     <!-- Contact Me -->
+     <div id="contact-me">
+      <div class="row">
+        <div class="contact">
+          <h3>Contact Me</h3>
+          <span><i class="fa-solid fa-paper-plane"></i></span> rishithpa@gmail.com <br>
+          <span><i class="fa-solid fa-square-phone"></i></span> 9861192430 <br>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="/img/CV, Rishi Thapa (1)_page-0001.jpg" download class="btn-2">Download CV</a>
+        </div>
+        <div class="contact-right">
+           <div class="form">
+          <input type="text" id="fullName" placeholder="Enter your Name" required>
+          <input type="email" id="email_id" placeholder="Enter your Email" required>
+          <textarea name="message" rows="6" id="message" placeholder="Enter your Message"></textarea>
+          <button type="submit" onclick="SendMail()" class="btn-2">Submit</button>
+        </div>
+        </div>
+      </div>
+     </div>
+
+
+     <div class="copyright">
+      <p>Copyright ©2023 Rishi Thapa</p>
+     </div>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
